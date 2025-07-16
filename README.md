@@ -15,7 +15,6 @@ Bu script, birden fazla Meta reklam hesabındaki reklam setlerinin frekans (freq
 - Google Sheets
 - Google Apps Script
 - Meta Access Token (Facebook Graph API)
-- Meta Graph API v23.0 veya üzeri
 
 ## Kurulum
 

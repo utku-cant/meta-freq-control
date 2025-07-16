@@ -65,7 +65,7 @@ Script, aşağıdaki gibi bir HTML tabloyu e-posta olarak gönderir:
 ## Test ve Kullanım
 
 1. `checkAdSetFrequencies_MultiAccount()` fonksiyonunu Apps Script editöründe elle çalıştır.
-2. 1 dakika kadar bekleyin (API rate limit için delay vardır).
+2. Biraz bekleyin (API rate limit için delay vardır ayrıca hesap ve kampanya sayısına göre bekleyeceğiniz süre artabilir).
 3. Tanımlı e-mail adresine HTML tablo içeren bir rapor gelir.
 
 ## Uyarılar

@@ -68,7 +68,7 @@ function formatDateRange(days) {
 }
 
 function checkAdSetFrequencies_MultiAccount() {
-  const accessToken = '_Buraya_aldığımız_Access_Token'i_gireceğiz_';
+  const accessToken = 'BURAYA_TOKEN';
   const version = 'v23.0';
   const threshold = 3;
 

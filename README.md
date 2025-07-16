@@ -3,21 +3,21 @@
 
 Bu script, birden fazla Meta reklam hesabındaki reklam setlerinin frekans (frequency) verilerini kontrol eder. Eğer bir reklam setinin sıklığı belirlenen eşik değeri (varsayılan: 3)'ü aşıyorsa, bu reklam setlerini içeren bir e-posta raporu gönderir.
 
-## 🚀 Özellikler
+## Özellikler
 
 - Birden fazla Meta Business hesabını kontrol eder (`actData` sayfasından)
 - Aktif reklam setlerini baz alır
 - 7 günlük ve 28 günlük frekansları kontrol eder
 - Eşik değeri geçen reklam setlerini renkli HTML tablo ile e-posta olarak iletir
 
-## 🧰 Gereksinimler
+## Gereksinimler
 
 - Google Sheets
 - Google Apps Script
 - Meta Access Token (Facebook Graph API)
 - Meta Graph API v23.0 veya üzeri
 
-## 📂 Kurulum
+## Kurulum
 
 1. [Google Sheets](https://sheets.new) üzerinde yeni bir dosya oluştur.
 2. Yeni bir sayfa oluşturup adını `actData` yap.
@@ -51,7 +51,7 @@ Bu script, birden fazla Meta reklam hesabındaki reklam setlerinin frekans (freq
   const threshold = 3;
   ```
 
-## 📊 Çıktı Örneği
+## Çıktı Örneği
 
 Script, aşağıdaki gibi bir HTML tabloyu e-posta olarak gönderir:
 
@@ -62,13 +62,13 @@ Script, aşağıdaki gibi bir HTML tabloyu e-posta olarak gönderir:
 
 > 🔴 Renkler frekans değerine göre tonlanır: Açık turuncudan kırmızıya.
 
-## 🧪 Test ve Kullanım
+## Test ve Kullanım
 
 1. `checkAdSetFrequencies_MultiAccount()` fonksiyonunu Apps Script editöründe elle çalıştır.
 2. 1 dakika kadar bekleyin (API rate limit için delay vardır).
 3. Tanımlı e-mail adresine HTML tablo içeren bir rapor gelir.
 
-## ⚠️ Uyarılar
+## Uyarılar
 
 - Meta Access Token süresi dolarsa, rapor çekilemez. Gerekirse [token debug aracı](https://developers.facebook.com/tools/accesstoken/) ile kontrol edin.
 - Çok fazla hesap varsa `chunkSize` değerini 10–15 arasında tutun.

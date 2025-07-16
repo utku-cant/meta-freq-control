@@ -31,7 +31,7 @@ Bu script, birden fazla Meta reklam hesabındaki reklam setlerinin frekans (freq
 5. `freqcontrol.gs` dosyasının içeriğini yapıştır.
 6. Script'i kaydet.
 
-## 🛠️ Yapılandırma
+## Yapılandırma
 
 - `accessToken` satırını kendi Meta Access Token’ınızla değiştirin:
 
@@ -73,5 +73,3 @@ Script, aşağıdaki gibi bir HTML tabloyu e-posta olarak gönderir:
 - Meta Access Token süresi dolarsa, rapor çekilemez. Gerekirse [token debug aracı](https://developers.facebook.com/tools/accesstoken/) ile kontrol edin.
 - Çok fazla hesap varsa `chunkSize` değerini 10–15 arasında tutun.
 - Google Apps Script’in e-posta gönderim limiti vardır (örneğin, günlük 100 e-posta sınırı).
-
-.

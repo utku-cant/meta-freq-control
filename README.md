@@ -1,5 +1,5 @@
 
-# Meta Ads Frequency Monitor (Google Apps Script)
+# Meta Ads Frequency Alert (Google Apps Script)
 
 Bu script, birden fazla Meta reklam hesabındaki reklam setlerinin frekans (frequency) verilerini kontrol eder. Eğer bir reklam setinin sıklığı belirlenen eşik değeri (varsayılan: 3)'ü aşıyorsa, bu reklam setlerini içeren bir e-posta raporu gönderir.
 
